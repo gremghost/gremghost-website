@@ -1,0 +1,233 @@
+/*index.html ids and classes*/
+
+/*css animations*/
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.txt:hover {
+    text-decoration: underline;
+}
+
+/*header container*/
+#gremlogo {
+    position: absolute;
+    height: 60px;
+    left: 30px;
+    top: 15px;
+}
+
+#line {
+    position: absolute;
+    left: 433px;
+    top: 41px;
+    width: 950px;
+    border-bottom: 5px solid white;
+}
+
+#releases {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    left: 1300px;
+    top: 20px;
+    text-decoration: none;
+}
+
+#news {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    left: 1500px;
+    top: 20px;
+    text-decoration: none;
+}
+
+#about {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    left: 1640px;
+    top: 20px;
+    text-decoration: none;
+}
+
+.buttons {
+    position: absolute;
+    left: 120px; 
+    top: 0px;
+}
+
+/*youtube video container*/
+.youtube {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+/*latest releases container*/
+.releases {
+    position: absolute;
+    top: -80px;
+    left: 70px;
+}
+
+.textthatwontformatright {
+    position: absolute;
+    left: -50px;
+    top: 1px
+}
+#latest{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    text-wrap: none;
+    left: 1430px;
+    top: 340px;
+}
+
+#releases2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    text-wrap: none;
+    left: 1515px;
+    top: 340px;
+}
+
+#release1 {
+    position: absolute;
+    width: 350px;
+    left: 1300px;
+    top: 0px;
+    filter: drop-shadow(15px 15px 15px #000000);
+    -webkit-user-drag: none;
+}
+
+#release2 {
+    position: absolute;
+    width: 350px;
+    left: 1300px;
+    top: 430px;
+    filter: drop-shadow(15px 15px 15px #000000);
+    -webkit-user-drag: none;
+}
+
+/*'copyright' text*/
+#fakecopyright {
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white; /*fallback for older browsers*/
+    color: rgba(255, 255, 255, 0.5);
+    font-size: smaller;
+    top: 720px;
+    left: -80px;
+}
+
+/*releases.html ids and classes*/
+
+#home {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    left: -70px;
+    top: 20px;
+    text-decoration: none;
+}
+
+#news2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    text-decoration: none;
+}
+
+#about2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    left: 170px;
+    top: 20px;
+    text-decoration: none;
+}
+
+/*all release covers*/
+
+#id1 {
+    position: absolute;
+    width: 375px;
+    top: 125px;
+    left: 50px;
+    -webkit-user-drag: none;
+}
+
+#shocking-text {
+    font-family: 'Finlandica Headline';
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 125px;
+    left: 825px;
+}
+
+#id2 {
+    position: absolute;
+    width: 375px;
+    top: 125px;
+    left: 525px;
+    -webkit-user-drag: none;
+}
+
+#id3 {
+    position: absolute;
+    width: 375px;
+    top: 125px;
+    left: 1000px;
+    -webkit-user-drag: none;
+}
+
+#id4 {
+    position: absolute;
+    width: 375px;
+    top: 125px;
+    left: 1480px;
+    -webkit-user-drag: none;
+}
+
+#id5 {
+    position: absolute;
+    width: 375px;
+    top: 550px;
+    left: 50px;
+    -webkit-user-drag: none;
+}
+
+#id6 {
+    position: absolute;
+    width: 375px;
+    top: 550px;
+    left: 525px;
+    -webkit-user-drag: none;
+}
+
+#id7 {
+    position: absolute;
+    width: 375px;
+    top: 550px;
+    left: 1000px;
+    -webkit-user-drag: none;
+}
