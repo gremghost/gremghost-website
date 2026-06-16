@@ -30,13 +30,10 @@ function test(element) {
 
     displayDetails.style.width = "90vw";
     displayDetails.style.height = "90vh";
-
     displayDetails.style.color = "white";
     displayDetails.style.fontSize = "large";
 
-
     document.body.appendChild(displayDetails);
-    console.log(release_info[objectId]["title"]);
 }
 
 //object list for all albums and other releases

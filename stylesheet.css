@@ -94,7 +94,7 @@
     top: 340px;
 }
 
-#releases2{
+#releases_base{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     font-size: 30px;
@@ -173,6 +173,7 @@
     top: 125px;
     left: 50px;
     -webkit-user-drag: none;
+    z-index: 0;
 }
 
 #shocking-text {
@@ -190,6 +191,7 @@
     top: 125px;
     left: 525px;
     -webkit-user-drag: none;
+    z-index: 0;
 }
 
 #id3 {
@@ -198,6 +200,7 @@
     top: 125px;
     left: 1000px;
     -webkit-user-drag: none;
+    z-index: 0;
 }
 
 #id4 {
@@ -206,6 +209,7 @@
     top: 125px;
     left: 1480px;
     -webkit-user-drag: none;
+    z-index: 0;
 }
 
 #id5 {
@@ -214,6 +218,7 @@
     top: 550px;
     left: 50px;
     -webkit-user-drag: none;
+    z-index: 0;
 }
 
 #id6 {
@@ -222,6 +227,7 @@
     top: 550px;
     left: 525px;
     -webkit-user-drag: none;
+    z-index: 0;
 }
 
 #id7 {
@@ -230,4 +236,14 @@
     top: 550px;
     left: 1000px;
     -webkit-user-drag: none;
+    z-index: 0;
+}
+
+#id8 {
+    position: absolute;
+    width: 375px;
+    top: 550px;
+    left: 1480px;
+    -webkit-user-drag: none;
+    z-index: 0;
 }
